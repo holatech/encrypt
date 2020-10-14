@@ -24,7 +24,7 @@ def encipher(word):
                 wordList.remove(wordList[i][j])
                 wordList[i][j+1].upper()
     for item in wordList:
-        result = item + ''
+        result = item + ' '
     return result
 
 
@@ -51,5 +51,5 @@ def encipher(word):
                     wordList.remove(wordList[i][j])
                     wordList[i][j+1].upper()
         for item in wordList:
-            result = item + ''
+            result = item + ' '
         return result
